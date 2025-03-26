@@ -15,7 +15,20 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
         fontSize: 50,
         fontWeight: FontWeight.normal,
         color: Color.fromARGB(255, 255, 255, 255)
-        ),)
+        ),
+        ),
+        TextField(
+          style: TextStyle(
+            color: Colors.cyan,
+          ),
+          decoration: InputDecoration(
+            label: Text("Please enter the amount in INR",
+            style: TextStyle(
+              color: Colors.deepOrangeAccent
+            ),),
+
+          ),
+        )
       ]
       ),
     )
