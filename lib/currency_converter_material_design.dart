@@ -27,7 +27,17 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
               color: Colors.green
             ),
             prefixIcon: Icon(Icons.attach_money_outlined),
-            prefixIconColor: Colors.red
+            prefixIconColor: Colors.red,
+            fillColor: Colors.white,
+            filled: true,
+            focusedBorder: OutlineInputBorder(
+              borderSide: BorderSide(
+                color: Colors.red,
+                width: 4.0,
+                style: BorderStyle.solid
+              ),
+              borderRadius: BorderRadius.all(Radius.circular(30),)
+            ),
           ),
         )
       ]
