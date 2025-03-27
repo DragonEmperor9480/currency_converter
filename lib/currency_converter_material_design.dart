@@ -28,7 +28,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
             ),
             //margin: it deals with the stuff outside the container.
             //padding: related to stuff inside the container.
-            Container(
+            Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextField(
                 style: TextStyle(color: Colors.cyan),
