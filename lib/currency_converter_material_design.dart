@@ -47,6 +47,12 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                 ),
               ),
             ),
+            TextButton(
+              onPressed: () {
+                print("Button Clicked");
+              },
+              child: Text("Click Me"),
+            ),
           ],
         ),
       ),
